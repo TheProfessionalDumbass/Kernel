@@ -45,7 +45,7 @@ on:
       build_lkm:
         required: false
         type: boolean
-        default: false
+        default: true
     secrets:
       BOOT_SIGN_KEY:
         required: false
